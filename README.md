@@ -108,21 +108,6 @@ Useful for:
 - Enthusiasts exploring the solar system interactively
 - Developers studying canvas-based animations
 
-## Mobile Support
-
-The application is responsive and works on phones, tablets, laptops, and desktops.
-
-## Future Enhancements
-
-Potential ideas:
-- Moon orbits
-- Asteroid belt visualization
-- Spacecraft trajectories
-- Live astronomical data
-- Ambient audio
-- Planetary rotation and day/night cycles
-- Telescope-style view mode
-
 ## License
 
 This project is open source under the MIT License.
