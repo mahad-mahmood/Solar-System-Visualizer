@@ -1,71 +1,63 @@
-# 🌌 Solar System Visualizer
+# Solar System Visualizer
 
-An interactive, real-time visualization of our solar system with realistic orbital mechanics and beautiful animations.
+An interactive, real-time visualization of our solar system with realistic orbital mechanics and smooth animations.
 
-## ✨ Features
+## Features
 
-### 🪐 Realistic Orbital Mechanics
-- **Elliptical Orbits**: Each planet follows its actual elliptical orbit with correct eccentricity
-- **Accurate Orbital Periods**: Planets move at their real orbital speeds relative to each other
-- **Realistic Distances**: Based on actual astronomical data (in millions of kilometers)
+### Realistic Orbital Mechanics
+- Elliptical orbits with appropriate eccentricity
+- Relative orbital periods that reflect real speeds
+- Distances based on astronomical data (in millions of kilometers)
 
-### 🎮 Interactive Controls
-- **Speed Control**: Adjust animation speed from 0.1x to 5x normal speed
-- **Scale Control**: Zoom in/out from 0.5x to 10x scale for better visibility
-- **Size Modes**: Toggle between realistic and cartoon planet sizes
-- **View Centers**: Switch between Sun-centered and Earth-centered views
-- **Pause/Resume**: Control animation playback
-- **Reset**: Return all planets to their starting positions
+### Interactive Controls
+- Speed control: 0.1x to 5x
+- Scale control: 0.5x to 10x for visibility
+- Size modes: realistic or simplified
+- View centers: Sun-centered or Earth-centered
+- Pause/Resume and Reset
 
-### 🖱️ Interactive Elements
-- **Planet Information**: Hover over any planet to see detailed information including:
-  - Distance from Sun
-  - Orbital period
-  - Diameter
-  - Mass
-  - Interesting facts
-- **Responsive Design**: Works on desktop, tablet, and mobile devices
+### Interactive Elements
+- Planet information on hover: distance from Sun, orbital period, diameter, mass, and quick facts
+- Responsive design for desktop, tablet, and mobile
 
-### 🎨 Visual Enhancements
-- **Twinkling Starfield**: Animated background with twinkling stars
-- **Pulsing Sun**: The Sun glows and pulses with animated rays
-- **3D Planet Effects**: Planets have realistic shading and highlights
-- **Orbit Trails**: Faint orbital paths show the elliptical orbits
-- **Distance Indicators**: Visual rings showing planetary distances
-- **Modern UI**: Beautiful gradient backgrounds and glassmorphism effects
+### Visual Enhancements
+- Animated starfield background
+- Subtle solar glow
+- Shaded planet rendering
+- Orbit trails and distance indicators
+- Clean, modern UI
 
-## 🚀 Getting Started
+## Getting Started
 
-1. **Clone or Download**: Get the project files
-2. **Open**: Simply open `index.html` in any modern web browser
-3. **Explore**: Use the controls to interact with the solar system
+1. Get the project files (clone or download).
+2. Open `index.html` in any modern web browser.
+3. Use the on-screen controls to explore the solar system.
 
-No installation or setup required - it's a pure HTML/CSS/JavaScript application!
+No installation is required; this is a plain HTML/CSS/JavaScript project.
 
-## 🎯 Controls
+## Controls
 
 ### Keyboard Shortcuts
-- **Spacebar**: Pause/Resume animation
-- **R**: Reset all planets to starting positions
+- Space: Pause/Resume animation
+- R: Reset to starting positions
 
 ### Mouse Controls
-- **Hover**: Move mouse over planets to see information
-- **Click**: Click on planets for detailed information
+- Hover: Display planet information
+- Click: Show detailed information
 
 ### Sliders and Buttons
-- **Animation Speed**: Control how fast planets orbit (0.1x - 5x)
-- **Scale**: Zoom in/out for better visibility (0.5x - 10x)
-- **Planet Size Mode**: Toggle between realistic and cartoon sizes
-- **View Center**: Switch between Sun-centered and Earth-centered views
-- **Pause/Resume**: Stop or start the animation
-- **Reset**: Return to initial state
+- Animation Speed: 0.1x – 5x
+- Scale: 0.5x – 10x
+- Planet Size Mode: Realistic or simplified
+- View Center: Sun or Earth
+- Pause/Resume and Reset
 
-## 🪐 Planet Data
+## Planet Data
 
-The visualizer includes all 8 planets plus the Sun with accurate data:
+The visualizer includes the Sun and all eight planets with representative data:
 
 | Planet | Distance (M km) | Orbital Period (days) | Eccentricity |
-|--------|----------------|----------------------|--------------|
+|--------|------------------|-----------------------|--------------|
 | Mercury | 58 | 88 | 0.205 |
 | Venus | 108 | 225 | 0.007 |
 | Earth | 150 | 365 | 0.017 |
@@ -75,82 +67,66 @@ The visualizer includes all 8 planets plus the Sun with accurate data:
 | Uranus | 2,867 | 30,687 | 0.046 |
 | Neptune | 4,515 | 60,190 | 0.009 |
 
-## 🛠️ Technical Details
+## Technical Details
 
-### Technologies Used
-- **HTML5 Canvas**: For smooth 2D graphics rendering
-- **CSS3**: Modern styling with gradients, animations, and glassmorphism
-- **Vanilla JavaScript**: No frameworks - pure JavaScript for optimal performance
-- **Web Fonts**: Google Fonts (Orbitron, Inter) for beautiful typography
+### Technologies
+- HTML5 Canvas for 2D rendering
+- CSS3 for layout, animations, and styling
+- Vanilla JavaScript for performance and simplicity
+- Web fonts for typography
 
-### Performance Features
-- **RequestAnimationFrame**: Smooth 60fps animations
-- **Efficient Rendering**: Optimized drawing algorithms
-- **Responsive Canvas**: Automatically adjusts to screen size
-- **Memory Efficient**: No memory leaks or performance degradation
+### Performance
+- requestAnimationFrame for smooth animations
+- Efficient drawing and updates
+- Responsive canvas sizing
+- Memory-conscious rendering
 
 ### Browser Compatibility
-- ✅ Chrome 60+
-- ✅ Firefox 55+
-- ✅ Safari 12+
-- ✅ Edge 79+
+- Chrome 60+
+- Firefox 55+
+- Safari 12+
+- Edge 79+
 
-## 🎨 Customization
+## Customization
 
-The visualizer is designed to be easily customizable:
+The visualizer is designed to be easy to extend:
 
-### Adding New Planets
-Edit the `planets` array in `script.js` to add new celestial bodies.
+### Adding Bodies
+Edit the `planets` array in `script.js` to add new objects.
 
-### Changing Colors
-Modify the `color` property of each planet in the data structure.
+### Colors and Styles
+Adjust each planet's `color` property and update `styles.css` for theme changes.
 
-### Adjusting Physics
-Modify orbital calculations in the `getPlanetPosition()` method.
+### Physics Parameters
+Adjust orbital calculations in `getPlanetPosition()` as needed.
 
-### Styling
-Update `styles.css` to change the visual appearance and theme.
+## Educational Use
 
-## 🌟 Educational Value
+Useful for:
+- Students learning planetary motion and orbital mechanics
+- Teachers demonstrating astronomical concepts
+- Enthusiasts exploring the solar system interactively
+- Developers studying canvas-based animations
 
-This visualizer is perfect for:
-- **Students**: Learning about planetary motion and orbital mechanics
-- **Teachers**: Demonstrating astronomical concepts in the classroom
-- **Astronomy Enthusiasts**: Exploring our solar system interactively
-- **Developers**: Understanding canvas-based animations and physics simulations
+## Mobile Support
 
-## 📱 Mobile Support
+The application is responsive and works on phones, tablets, laptops, and desktops.
 
-The visualizer is fully responsive and works great on:
-- 📱 Smartphones
-- 📱 Tablets
-- 💻 Laptops
-- 🖥️ Desktop computers
+## Future Enhancements
 
-## 🔮 Future Enhancements
+Potential ideas:
+- Moon orbits
+- Asteroid belt visualization
+- Spacecraft trajectories
+- Live astronomical data
+- Ambient audio
+- Planetary rotation and day/night cycles
+- Telescope-style view mode
 
-Potential features for future versions:
-- 🌙 Moon orbits around planets
-- ☄️ Asteroid belt visualization
-- 🛰️ Spacecraft trajectories
-- 📊 Real-time astronomical data
-- 🎵 Ambient space music
-- 🌍 Earth's rotation and day/night cycle
-- 🔭 Telescope view mode
+## License
 
-## 📄 License
+This project is open source under the MIT License.
 
-This project is open source and available under the MIT License.
 
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to:
-- Report bugs
-- Suggest new features
-- Submit pull requests
-- Improve documentation
-
----
-
-**Enjoy exploring our cosmic neighborhood!** 🚀✨
+Enjoy exploring our solar system.
 
